@@ -1,0 +1,55 @@
+/** Page Rules */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/** Começo do menu */
+#menu {
+
+}
+
+#menu ul {
+	margin: 0px;
+	background-color: #009999;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline; 	/** put it aside (deixa de lado)*/
+}	
+
+#menu ul li a {									
+	padding: 15px 10px;	/** first 15px is top/bottom || 10px is left/right*/
+	display: inline-block;
+	color: white;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color:#003333;
+}
+/** Start of the texts */
+#texto {
+	padding: 20px 5px;
+	font-family: Arial;
+	text-align: center;
+}
+
+h1 {	
+	text-align: center;
+}
+
+h2 {
+	text-align: justify;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+	padding: 15px 0px;
+	width: 500px;
+	height: 350px;
+}
